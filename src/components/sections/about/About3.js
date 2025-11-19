@@ -13,55 +13,74 @@ const About3 = ({ type }) => {
 							<div className="about-img overflow-hidden">
 								<Image
 									data-speed=".8"
-									src="/images/about/about-5.webp"
+									src="/images/about/about-5.jpg"
 									alt=""
 									width={591}
 									height={639}
 								/>
 							</div>
-							<div className={`box-area ${type === 2 ? "style-2" : ""}`}>
+							{/* <div className={`box-area ${type === 2 ? "style-2" : ""}`}>
 								<div className="progress-box wow fadeInUp" data-wow-delay=".3s">
-									<h4 className="title">Business Progress</h4>
+									<h4 className="title">Производственные показатели</h4>
 									<ul className="tj-progress-list">
 										<li>
-											<h6 className="tj-progress-title">Revenue</h6>
+											<h6 className="tj-progress-title">500 000+</h6>
 											<div className="tj-progress">
-												<span className="tj-progress-percent">82%</span>
+												<span className="tj-progress-percent">годовая производственная мощность</span>
 												<div
 													className="tj-progress-bar"
-													data-percent="82"
+													data-percent="100"
 												></div>
 											</div>
 										</li>
 										<li>
-											<h6 className="tj-progress-title">Satisfaction</h6>
+											<h6 className="tj-progress-title">15+</h6>
 											<div className="tj-progress">
-												<span className="tj-progress-percent">90%</span>
+												<span className="tj-progress-percent">зарегистрированных медицинских изделий</span>
 												<div
 													className="tj-progress-bar"
-													data-percent="90"
+													data-percent="100"
+												></div>
+											</div>
+										</li>
+										<li>
+											<h6 className="tj-progress-title">18+</h6>
+											<div className="tj-progress">
+												<span className="tj-progress-percent">патентов и разработок</span>
+												<div
+													className="tj-progress-bar"
+													data-percent="100"
+												></div>
+											</div>
+										</li>
+										<li>
+											<h6 className="tj-progress-title">42 му</h6>
+											<div className="tj-progress">
+												<span className="tj-progress-percent">площадь производственного комплекса</span>
+												<div
+													className="tj-progress-bar"
+													data-percent="100"
 												></div>
 											</div>
 										</li>
 									</ul>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="col-xl-6 col-lg-6 order-lg-2 order-1">
 						<div className="about-content-area">
 							<div className={`sec-heading ${type === 2 ? "" : "style-3"}`}>
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-box"></i>Get to Know Us
+									<i className="tji-box"></i>Производитель медицинского реабилитационного оборудования
 								</span>
 								<h2 className="sec-title title-anim">
 									{type === 2 ? (
 										<>
-											Driving Innovation and Excellence for Sustainable
-											Corporate Success <span>Worldwide.</span>
+												Разрабатываем и производим медицинское оборудование для <span>эффективной реабилитации пациентов</span>
 										</>
 									) : (
-										"Driving Innovation and Excellence for Sustainable Corporate Success Worldwide."
+										"Разрабатываем и производим медицинское реабилитационное оборудование для неврологии, кардиологии, гастроэнтерологии и послеродового восстановления. Предоставляем медицинским учреждениям надёжное оборудование для эффективной реабилитации пациентов."
 									)}
 								</h2>
 							</div>
@@ -71,20 +90,19 @@ const About3 = ({ type }) => {
 								className="mission-vision-box wow fadeInLeft"
 								data-wow-delay=".5s"
 							>
-								<h4 className="title">Our Mission</h4>
+								<h4 className="title">Наша миссия</h4>
 								<p className="desc">
-									our mission is empower businesses through innovate best
-									solution, exceptional service.
+									Сотрудничаем с больницами, клиниками и реабилитационными центрами, обеспечивая обучение персонала, методические материалы и сервисное сопровождение оборудования.
 								</p>
 								<ul className="list-items">
 									<li>
-										<i className="tji-list"></i>Innovation & Excellence
+										<i className="tji-list"></i>Инновации и качество
 									</li>
 									<li>
-										<i className="tji-list"></i>Exceptional Customer
+										<i className="tji-list"></i>Поддержка партнёров
 									</li>
 									<li>
-										<i className="tji-list"></i>Business Growth
+										<i className="tji-list"></i>Эффективная реабилитация
 									</li>
 								</ul>
 							</div>
@@ -92,26 +110,25 @@ const About3 = ({ type }) => {
 								className="mission-vision-box wow fadeInRight"
 								data-wow-delay=".5s"
 							>
-								<h4 className="title">Our Vision</h4>
+								<h4 className="title">Наше видение</h4>
 								<p className="desc">
-									Our vision is to become a global leader in providing
-									transformative business solutions.
+									Стать лидером в производстве медицинского реабилитационного оборудования, обеспечивая высокое качество лечения и эффективное восстановление пациентов.
 								</p>
 								<ul className="list-items">
 									<li>
-										<i className="tji-list"></i>Global Leadership
+										<i className="tji-list"></i>Лидерство в отрасли
 									</li>
 									<li>
-										<i className="tji-list"></i>Transformative Impact
+										<i className="tji-list"></i>Трансформация медицины
 									</li>
 									<li>
-										<i className="tji-list"></i>Sustainable Success
+										<i className="tji-list"></i>Устойчивое развитие
 									</li>
 								</ul>
 							</div>
 						</div>
 						<div className="about-btn-area wow fadeInUp" data-wow-delay=".5s">
-							<ButtonPrimary text={"Learn More About Us"} url={"/about"} />
+							<ButtonPrimary text={"Узнать больше"} url={"/about"} />
 						</div>
 					</div>
 				</div>

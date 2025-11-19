@@ -10,7 +10,7 @@ const Contact3 = () => {
 					<div className="col-lg-6">
 						<div className="contact-form wow fadeInUp" data-wow-delay=".1s">
 							<h3 className="title">
-								Feel Free to Get in Touch or Visit our Location.
+								Свяжитесь с нами для получения каталога и коммерческого предложения
 							</h3>
 							<form id="contact-form">
 								<div className="row">
@@ -18,7 +18,7 @@ const Contact3 = () => {
 										<div className="form-input">
 											<input type="text" name="cfName" />
 											<label className="cf-label">
-												Full Name <span>*</span>
+												Имя <span>*</span>
 											</label>
 										</div>
 									</div>
@@ -26,7 +26,7 @@ const Contact3 = () => {
 										<div className="form-input">
 											<input type="email" name="cfEmail" />
 											<label className="cf-label">
-												Email Address <span>*</span>
+												E-mail <span>*</span>
 											</label>
 										</div>
 									</div>
@@ -34,7 +34,7 @@ const Contact3 = () => {
 										<div className="form-input">
 											<input type="tel" name="cfPhone" />
 											<label className="cf-label">
-												Phone number <span>*</span>
+												Телефон (необязательно)
 											</label>
 										</div>
 									</div>
@@ -45,24 +45,24 @@ const Contact3 = () => {
 													<ReactNiceSelect
 														selectedIndex={0}
 														options={[
-															{ value: "0", optionName: "Chose a option" },
-															{ value: "1", optionName: "Business Strategy" },
-															{ value: "2", optionName: "Customer Experience" },
+															{ value: "0", optionName: "Выберите оборудование" },
+															{ value: "1", optionName: "Транскраниальный магнитный стимулятор" },
+															{ value: "2", optionName: "Аппарат для лечения мозговых сосудов" },
 															{
 																value: "3",
-																optionName: "Sustainability and ESG",
+																optionName: "Ультразвуковой низкочастотный электроаппарат",
 															},
 															{
 																value: "4",
-																optionName: "Training and Development",
+																optionName: "Аппарат для лечения артериальной гипертензии",
 															},
 															{
 																value: "5",
-																optionName: "IT Support & Maintenance",
+																optionName: "Музыкальный гастроинтестинальный терапевтический аппарат",
 															},
 															{
 																value: "6",
-																optionName: "Marketing Strategy",
+																optionName: "Система послеродовой реабилитации тазового дна",
 															},
 														]}
 														getSelectedOption={handleSelect}
@@ -75,14 +75,14 @@ const Contact3 = () => {
 										<div className="form-input message-input">
 											<textarea name="cfMessage" id="message"></textarea>
 											<label className="cf-label">
-												Type message <span>*</span>
+												Сообщение <span>*</span>
 											</label>
 										</div>
 									</div>
 									<div className="submit-btn">
 										<button className="tj-primary-btn" type="submit">
 											<span className="btn-text">
-												<span>Submit Now</span>
+												<span>Отправить сообщение</span>
 											</span>
 											<span className="btn-icon">
 												<i className="tji-arrow-right-long"></i>
@@ -95,7 +95,7 @@ const Contact3 = () => {
 					</div>
 					<div className="col-lg-6">
 						<div className="map-area wow fadeInUp" data-wow-delay=".3s">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d316440.5712687838!2d-74.01091796224334!3d40.67186885683901!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1745918398047!5m2!1sen!2sbd"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d287191.07665534207!2d37.5555002!3d55.7814244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2sMoscow%2C%20Russia!5e0!3m2!1sen!2sus!4v1763529916030!5m2!1sen!2sus" ></iframe>
 						</div>
 					</div>
 				</div>

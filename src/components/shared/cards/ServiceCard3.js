@@ -6,10 +6,13 @@ const ServiceCard3 = ({ service, idx, lastItem }) => {
 		desc,
 		id,
 		totalProject,
-		img2 = "/images/service/service-2.webp",
+		img2,
 		svg,
 		iconName,
 	} = service || {};
+	
+	// Используем изображение только если оно есть в данных
+	const backgroundImage = img2;
 
 	return (
 		<div className="service-item style-3 wow fadeInUp" data-wow-delay=".3s">
@@ -26,10 +29,12 @@ const ServiceCard3 = ({ service, idx, lastItem }) => {
 					<p className="desc">{desc}</p>
 				</div>
 			</div>
-			<div
-				className="service-reveal-bg"
-				style={{ backgroundImage: `url('${img2}')` }}
-			></div>
+			{backgroundImage && (
+				<div
+					className="service-reveal-bg"
+					style={{ backgroundImage: `url('${backgroundImage}')` }}
+				></div>
+			)}
 		</div>
 	);
 };

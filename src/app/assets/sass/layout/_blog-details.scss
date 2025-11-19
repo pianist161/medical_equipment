@@ -8,6 +8,14 @@ START: Blog Details CSS
 		margin-bottom: 30px;
 		border-radius: 12px;
 		overflow: hidden;
+		img {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+		@media #{$sm, $xs} {
+			margin-bottom: 20px;
+		}
 	}
 	.title {
 		line-height: 1.1;
@@ -28,6 +36,11 @@ START: Blog Details CSS
 		overflow: hidden;
 		img {
 			width: 100%;
+			height: auto;
+			display: block;
+		}
+		@media #{$sm, $xs} {
+			margin-bottom: 15px;
 		}
 	}
 	.blog-text {
@@ -955,19 +968,28 @@ blockquote {
 }
 
 .details-content-box {
-	display: flex;
-	flex-wrap: wrap;
-	column-gap: 15px;
-	row-gap: 15px;
-	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 1fr;
+	gap: 15px;
+	align-items: stretch;
 	margin-bottom: 50px;
+	@media #{$md} {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	@media #{$sm, $xs} {
+		grid-template-columns: 1fr;
+	}
 }
 .service-details-item {
 	background-color: var(--tj-color-common-white);
 	border-radius: 10px;
 	padding: 30px 17px 25px 18px;
-	max-width: 275px;
+	max-width: 100%;
 	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 	.number {
 		display: inline-flex;
 		align-items: center;
@@ -994,19 +1016,6 @@ blockquote {
 				margin-bottom: 0;
 			}
 		}
-	}
-	@media #{$xl} {
-		max-width: 235px;
-	}
-	@media #{$md} {
-		max-width: 220px;
-	}
-	@media #{$sm} {
-		max-width: 250px;
-		padding: 30px 15px 15px 15px;
-	}
-	@media #{$xs} {
-		max-width: 100%;
 	}
 }
 .blog-text {

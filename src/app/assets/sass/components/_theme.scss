@@ -64,7 +64,7 @@ body {
 	font-size: var(--tj-fs-body);
 	font-weight: normal;
 	color: var(--tj-color-text-body);
-	background-color: var(--tj-color-grey-1);
+	background-color: var(--tj-color-theme-bg);
 	line-height: 1.5;
 	&:has(.tj-offcanvas-area.opened, .hamburger-area.opened) {
 		overflow: hidden;

@@ -34,53 +34,35 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						</div>
 						<div className="offcanvas-text">
 							<p>
-								Developing personalize our customer journeys to increase
-								satisfaction & loyalty of our expansion recognized by industry
-								leaders.
+								Производим и поставляем медицинское реабилитационное оборудование для неврологии, кардиологии, гастроэнтерологии и послеродового восстановления.
 							</p>
 						</div>
-						<div className="hamburger-search-area">
-							<h5 className="hamburger-title">Search Now!</h5>
-							<div className="hamburger_search">
-								<form method="get" action="/">
-									<button type="submit">
-										<i className="tji-search"></i>
-									</button>
-									<input
-										type="search"
-										autoComplete="off"
-										name="s"
-										placeholder="Search here..."
-									/>
-								</form>
-							</div>
-						</div>
 						<div className="hamburger-infos">
-							<h5 className="hamburger-title">Contact Info</h5>
+							<h5 className="hamburger-title">Контактная информация</h5>
 							<div className="contact-info">
 								<div className="contact-item">
-									<span className="subtitle">Phone</span>
-									<Link className="contact-link" href="tel:10095447818">
-										+1 (009) 544-7818
+									<span className="subtitle">Телефон</span>
+									<Link className="contact-link" href="tel:+79991234567">
+										+7 (999) 123-45-67
 									</Link>
 								</div>
 								<div className="contact-item">
-									<span className="subtitle">Email</span>
-									<Link className="contact-link" href="mailto:info@bexon.com">
-										info@bexon.com
+									<span className="subtitle">E-mail</span>
+									<Link className="contact-link" href="mailto:info@medical-equipment.ru">
+										info@medical-equipment.ru
 									</Link>
 								</div>
 								<div className="contact-item">
-									<span className="subtitle">Location</span>
+									<span className="subtitle">Адрес</span>
 									<span className="contact-link">
-										993 Renner Burg, West Rond, MT 94251-030
+										Адрес уточняется
 									</span>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className="hamburger-socials">
-						<h5 className="hamburger-title">Follow Us</h5>
+						<h5 className="hamburger-title">Мы в соцсетях</h5>
 						<div className="social-links style-3">
 							<ul>
 								<li>

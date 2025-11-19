@@ -8,21 +8,21 @@ const HeaderTop = ({ type }) => {
 					<div className="col-12">
 						<div className="header-top-content">
 							<p className="topbar-text">
-								<i className="tji-excellence"></i>Recognized for Excellence{" "}
-								<Link href="/contact">Join us Now</Link>
+								<i className="tji-excellence"></i>Признанное качество{" "}
+								<Link href="/contact">Связаться с нами</Link>
 							</p>
 							<div className="header-info">
 								<div className="info-item">
 									<span>
 										<i className="tji-location"></i>
 									</span>
-									<Link href="#">Find a Location!</Link>
+									<Link href="#">Найти нас</Link>
 								</div>
 								<div className="info-item">
 									<span>
 										<i className="tji-phone-3"></i>
 									</span>
-									<Link href="tel:8089091313">808-909-1313</Link>
+									<Link href="tel:+79991234567">+7 (999) 123-45-67</Link>
 								</div>
 								<div className="info-item">
 									<div className="social-links style-2">

@@ -6,7 +6,7 @@ const Footer = () => {
 			<div className="footer-main-area">
 				<div className="container">
 					<div className="row justify-content-between">
-						<div className="col-xl-3 col-lg-4 col-md-6">
+						<div className="col-xl-4 col-lg-4 col-md-6">
 							<div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
 								<div className="footer-logo">
 									<Link href="/">
@@ -15,17 +15,8 @@ const Footer = () => {
 								</div>
 								<div className="footer-text">
 									<p>
-										Developing personalze our customer journeys to increase
-										satisfaction & loyalty of our expansion.
+										Производитель медицинского реабилитационного оборудования для клиник, больниц и реабилитационных центров.
 									</p>
-								</div>
-								<div className="award-logo-area">
-									<div className="award-logo">
-										<img src="/images/footer/award-logo-1.webp" alt="" />
-									</div>
-									<div className="award-logo">
-										<img src="/images/footer/award-logo-2.webp" alt="" />
-									</div>
 								</div>
 							</div>
 						</div>
@@ -34,83 +25,48 @@ const Footer = () => {
 								className="footer-widget widget-nav-menu wow fadeInUp"
 								data-wow-delay=".3s"
 							>
-								<h5 className="title">Services</h5>
+								<h5 className="title">Навигация</h5>
 								<ul>
 									<li>
-										<Link href="/services/1">Customer Experience</Link>
+										<Link href="/">Главная</Link>
 									</li>
 									<li>
-										<Link href="/services/2">Training Programs</Link>
+										<Link href="/services">Оборудование</Link>
 									</li>
 									<li>
-										<Link href="/services/3">Business Strategy</Link>
+										<Link href="/about">О компании</Link>
 									</li>
 									<li>
-										<Link href="/services/4">Training Program</Link>
-									</li>
-									<li>
-										<Link href="/services/5">ESG Consulting</Link>
-									</li>
-									<li>
-										<Link href="/services/6">Development Hub</Link>
+										<Link href="/contact">Контакты</Link>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div className="col-xl-2 col-lg-4 col-md-6">
-							<div
-								className="footer-widget widget-nav-menu wow fadeInUp"
-								data-wow-delay=".5s"
-							>
-								<h5 className="title">Resources</h5>
-								<ul>
-									<li>
-										<Link href="/contact">Contact us</Link>
-									</li>
-									<li>
-										<Link href="/team">Team Member</Link>
-									</li>
-									<li>
-										<Link href="#">Recognitions</Link>
-									</li>
-									<li>
-										<Link href="/careers">
-											Careers <span className="badge">New</span>
-										</Link>
-									</li>
-									<li>
-										<Link href="/blogs">News</Link>
-									</li>
-									<li>
-										<Link href="#">Feedback</Link>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="col-xl-4 col-lg-5 col-md-6">
+						<div className="col-xl-4 col-lg-4 col-md-6">
 							<div
 								className="footer-widget widget-subscribe wow fadeInUp"
-								data-wow-delay=".7s"
+								data-wow-delay=".5s"
 							>
-								<h3 className="title">Subscribe to Our Newsletter.</h3>
-								<div className="subscribe-form">
-									<form action="#">
-										<input
-											type="email"
-											name="email"
-											placeholder="Enter email"
-										/>
-										<button type="submit">
-											<i className="tji-plane"></i>
-										</button>
-										<label htmlFor="agree">
-											<input id="agree" type="checkbox" />
-											Agree to our{" "}
-											<Link href="/terms-and-conditions">
-												Terms & Condition?
+								<h5 className="title">Контакты</h5>
+								<div className="footer-contact">
+									<ul>
+										<li>
+											<Link href="mailto:info@medical-equipment.ru">
+												<span className="icon">
+													<i className="tji-envelop-2"></i>
+												</span>
+												<span className="text">info@medical-equipment.ru</span>
 											</Link>
-										</label>
-									</form>
+										</li>
+										<li>
+											<Link href="tel:+79991234567">
+												<span className="icon">
+													<i className="tji-phone-2"></i>
+												</span>
+												<span className="text">+7 (999) 123-45-67</span>
+											</Link>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -122,60 +78,9 @@ const Footer = () => {
 					<div className="row">
 						<div className="col-12">
 							<div className="copyright-content-area">
-								<div className="footer-contact">
-									<ul>
-										<li>
-											<Link href="tel:10095447818">
-												<span className="icon">
-													<i className="tji-phone-2"></i>
-												</span>
-												<span className="text">+1 (009) 544-7818</span>
-											</Link>
-										</li>
-										<li>
-											<Link href="mailto:info@bexon.com">
-												<span className="icon">
-													<i className="tji-envelop-2"></i>
-												</span>
-												<span className="text">info@bexon.com</span>
-											</Link>
-										</li>
-									</ul>
-								</div>
-								<div className="social-links">
-									<ul>
-										<li>
-											<Link href="https://www.facebook.com/" target="_blank">
-												<i className="fa-brands fa-facebook-f"></i>
-											</Link>
-										</li>
-										<li>
-											<Link href="https://www.instagram.com/" target="_blank">
-												<i className="fa-brands fa-instagram"></i>
-											</Link>
-										</li>
-										<li>
-											<Link href="https://x.com/" target="_blank">
-												<i className="fa-brands fa-x-twitter"></i>
-											</Link>
-										</li>
-										<li>
-											<Link href="https://www.linkedin.com/" target="_blank">
-												<i className="fa-brands fa-linkedin-in"></i>
-											</Link>
-										</li>
-									</ul>
-								</div>
 								<div className="copyright-text">
 									<p>
-										&copy; 2025 
-										<Link
-											href="https://themeforest.net/user/theme-junction/portfolio"
-											target="_blank"
-										>
-											Bexon
-										</Link>{" "}
-										All right reserved
+										&copy; 2025. Все права защищены.
 									</p>
 								</div>
 							</div>

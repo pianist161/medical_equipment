@@ -12,9 +12,9 @@ const ServiceDetailsMain = ({ currentItemId }) => {
 	return (
 		<div>
 			<HeroInner
-				title={title ? title : "Service Details"}
-				text={title ? title : "Service Details"}
-				breadcrums={[{ name: "Services", path: "/services" }]}
+				title={title ? title : "Детали оборудования"}
+				text={title ? title : "Детали оборудования"}
+				breadcrums={[{ name: "Оборудование", path: "/services" }]}
 			/>
 			<ServicesDetailsPrimary
 				option={{

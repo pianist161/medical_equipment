@@ -36,13 +36,13 @@ const HeaderSearchForm = () => {
 									<form action="#">
 										<div className="search_input">
 											<h4 className="title">
-												Search Blog, projects, Service or people.
+												Поиск по оборудованию, услугам и информации.
 											</h4>
 											<div className="search-box">
 												<input
 													className="search-input-field"
 													type="search"
-													placeholder="Search here..."
+													placeholder="Введите запрос..."
 													required=""
 												/>
 												<button type="submit">

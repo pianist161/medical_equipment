@@ -8,10 +8,13 @@ const ServiceCard5 = ({ service, idx, lastItemIdx }) => {
 		desc,
 		id,
 		totalProject,
-		img3 = "/images/service/service-6.webp",
+		img3,
 		svg,
 		iconName,
 	} = service || {};
+	
+	// Используем изображение только если оно есть в данных
+	const imageSrc = img3;
 
 	return (
 		<div
@@ -32,9 +35,11 @@ const ServiceCard5 = ({ service, idx, lastItemIdx }) => {
 					<ButtonPrimary text={"Learn More"} url={`/services/${id}`} />
 				</div>
 			</div>
-			<div className="service-img">
-				<img src={img3} alt="" />
-			</div>
+			{imageSrc && (
+				<div className="service-img">
+					<img src={imageSrc} alt={title || ""} />
+				</div>
+			)}
 		</div>
 	);
 };

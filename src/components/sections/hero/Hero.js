@@ -8,10 +8,10 @@ const Hero = () => {
 				<div className="banner-left-box">
 					<div className="banner-content">
 						<span className="sub-title wow fadeInDown" data-wow-delay=".2s">
-							<i className="tji-excellence"></i> Recognized for Excellence
+							<i className="tji-excellence"></i> Профессиональное медицинское оборудование
 						</span>
 						<h1 className="banner-title title-anim">
-							Driving Excellence Through Evolution and <span>Trust.</span>
+							Медицинское реабилитационное оборудование <span>для клиник и больниц</span>
 						</h1>
 						<div className="banner-desc-area wow fadeInUp" data-wow-delay=".7s">
 							<Link className="banner-link" href="/about">
@@ -20,8 +20,7 @@ const Hero = () => {
 								</span>
 							</Link>
 							<div className="banner-desc">
-								Represents growth, expansion, and modern business solution
-								present growth, expansion.
+								Производим и поставляем медицинское реабилитационное оборудование для неврологии, кардиологии, гастроэнтерологии и послеродового восстановления.
 							</div>
 						</div>
 					</div>
@@ -33,7 +32,7 @@ const Hero = () => {
 					<div className="banner-img">
 						<Image
 							data-speed="0.8"
-							src="/images/hero/hero-img.webp"
+							src="/images/hero/hero-img.jpg"
 							alt=""
 							width={945}
 							height={793}
@@ -45,26 +44,47 @@ const Hero = () => {
 								<ul>
 									<li className="wow fadeInLeft" data-wow-delay=".5s">
 										<Image
-											src="/images/testimonial/client-1.webp"
+											src="/images/testimonial/11.jpg"
 											alt=""
-											width={89}
-											height={89}
+											width={59}
+											height={59}
+											style={{
+												width: "100%",
+												height: "100%",
+												objectFit: "cover",
+												objectPosition: "center 25%",
+												borderRadius: "50%"
+											}}
 										/>
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".6s">
 										<Image
-											src="/images/testimonial/client-2.webp"
+											src="/images/testimonial/12.jpg"
 											alt=""
-											width={89}
-											height={89}
+											width={59}
+											height={59}
+											style={{
+												width: "100%",
+												height: "100%",
+												objectFit: "cover",
+												objectPosition: "center 25%",
+												borderRadius: "50%"
+											}}
 										/>
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".7s">
 										<Image
-											src="/images/testimonial/client-3.webp"
+											src="/images/testimonial/13.jpg"
 											alt=""
-											width={89}
-											height={89}
+											width={59}
+											height={59}
+											style={{
+												width: "100%",
+												height: "100%",
+												objectFit: "cover",
+												objectPosition: "center 25%",
+												borderRadius: "50%"
+											}}
 										/>
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".8s">
@@ -81,7 +101,7 @@ const Hero = () => {
 								30K
 							</div>
 							<h6 className="customers-text wow fadeInUp" data-wow-delay=".5s">
-								Happy customer we have world-wide.
+								Довольных клиентов по всему миру.
 							</h6>
 						</div>
 					</div>
@@ -92,7 +112,7 @@ const Hero = () => {
 					<span>
 						<i className="tji-arrow-down-long"></i>
 					</span>
-					Scroll Down
+					Прокрутить вниз
 				</button>
 			</div>
 		</section>

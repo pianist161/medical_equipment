@@ -34,31 +34,31 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 						</div>
 						<MobileNavbar />
 						<div className="hamburger-infos">
-							<h5 className="hamburger-title">Contact Info</h5>
+							<h5 className="hamburger-title">Контактная информация</h5>
 							<div className="contact-info">
 								<div className="contact-item">
-									<span className="subtitle">Phone</span>
-									<Link className="contact-link" href="tel:8089091313">
-										808-909-1313
+									<span className="subtitle">Телефон</span>
+									<Link className="contact-link" href="tel:+79991234567">
+										+7 (999) 123-45-67
 									</Link>
 								</div>
 								<div className="contact-item">
-									<span className="subtitle">Email</span>
-									<Link className="contact-link" href="mailto:info@bexon.com">
-										info@bexon.com
+									<span className="subtitle">E-mail</span>
+									<Link className="contact-link" href="mailto:info@medical-equipment.ru">
+										info@medical-equipment.ru
 									</Link>
 								</div>
 								<div className="contact-item">
-									<span className="subtitle">Location</span>
+									<span className="subtitle">Адрес</span>
 									<span className="contact-link">
-										993 Renner Burg, West Rond, MT 94251-030
+										Адрес уточняется
 									</span>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className="hamburger-socials">
-						<h5 className="hamburger-title">Follow Us</h5>
+						<h5 className="hamburger-title">Мы в соцсетях</h5>
 						<div className="social-links style-3">
 							<ul>
 								<li>

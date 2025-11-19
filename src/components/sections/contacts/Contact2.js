@@ -13,36 +13,6 @@ const Contact2 = () => {
 						<div className="global-map wow fadeInUp" data-wow-delay=".3s">
 							<div className="global-map-img">
 								<img src="/images/bg/map.svg" alt="Image" />
-								<div className="location-indicator loc-1">
-									<div className="location-tooltip">
-										<span>Head office:</span>
-										<p>993 Renner Burg, West Rond, MT 94251-030, USA.</p>
-										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
-										</Link>
-									</div>
-								</div>
-								<div className="location-indicator loc-2">
-									<div className="location-tooltip">
-										<span>Regional office:</span>
-										<p>Hessisch Lichtenau 37235, Kassel, Germany.</p>
-										<Link href="tel:10098801810">P: +1 (009) 880-1810</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
-										</Link>
-									</div>
-								</div>
-								<div className="location-indicator loc-3">
-									<div className="location-tooltip">
-										<span>Regional office:</span>
-										<p>32 Altamira, State of Pará, Brazil.</p>
-										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
-										</Link>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -53,10 +23,10 @@ const Contact2 = () => {
 						>
 							<div className="sec-heading">
 								<span className="sub-title text-white">
-									<i className="tji-box"></i>Get in Touch
+									<i className="tji-box"></i>Свяжитесь с нами
 								</span>
 								<h2 className="sec-title title-anim">
-									Drop Us a <span>Line.</span>
+									Отправьте нам <span>сообщение</span>
 								</h2>
 							</div>
 							<form id="contact-form-2">
@@ -66,7 +36,7 @@ const Contact2 = () => {
 											<input
 												type="text"
 												name="cfName2"
-												placeholder="Full Name *"
+												placeholder="Имя *"
 											/>
 										</div>
 									</div>
@@ -75,7 +45,7 @@ const Contact2 = () => {
 											<input
 												type="email"
 												name="cfEmail2"
-												placeholder="Email Address *"
+												placeholder="E-mail *"
 											/>
 										</div>
 									</div>
@@ -84,7 +54,7 @@ const Contact2 = () => {
 											<input
 												type="tel"
 												name="cfPhone2"
-												placeholder="Phone number *"
+												placeholder="Телефон *"
 											/>
 										</div>
 									</div>
@@ -95,24 +65,24 @@ const Contact2 = () => {
 													<ReactNiceSelect
 														selectedIndex={0}
 														options={[
-															{ value: "0", optionName: "Chose a option" },
-															{ value: "1", optionName: "Business Strategy" },
-															{ value: "2", optionName: "Customer Experience" },
+															{ value: "0", optionName: "Выберите услугу" },
+															{ value: "1", optionName: "Консультация по оборудованию" },
+															{ value: "2", optionName: "Коммерческое предложение" },
 															{
 																value: "3",
-																optionName: "Sustainability and ESG",
+																optionName: "Техническая поддержка",
 															},
 															{
 																value: "4",
-																optionName: "Training and Development",
+																optionName: "Обучение персонала",
 															},
 															{
 																value: "5",
-																optionName: "IT Support & Maintenance",
+																optionName: "Сервисное обслуживание",
 															},
 															{
 																value: "6",
-																optionName: "Marketing Strategy",
+																optionName: "Другое",
 															},
 														]}
 														getSelectedOption={handleSelect}
@@ -126,12 +96,12 @@ const Contact2 = () => {
 											<textarea
 												name="cfMessage2"
 												id="message"
-												placeholder="Type message *"
+												placeholder="Сообщение *"
 											></textarea>
 										</div>
 									</div>
 									<div className="submit-btn">
-										<ButtonPrimary text={"Send Message"} type={"submit"} />
+										<ButtonPrimary text={"Отправить сообщение"} type={"submit"} />
 									</div>
 								</div>
 							</form>

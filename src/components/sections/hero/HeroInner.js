@@ -5,7 +5,7 @@ const HeroInner = ({ title, text, breadcrums = [] }) => {
 	return (
 		<section
 			className="tj-page-header section-gap-x"
-			style={{ backgroundImage: `url('/images/bg/pheader-bg.webp')` }}
+			// style={{ backgroundImage: `url('/images/bg/pheader-bg.webp')` }}
 		>
 			<div className="container">
 				<div className="row">
@@ -17,7 +17,7 @@ const HeroInner = ({ title, text, breadcrums = [] }) => {
 									<i className="tji-home"></i>
 								</span>
 								<span>
-									<Link href="/">Home</Link>
+									<Link href="/">Главная</Link>
 								</span>
 								<span>
 									<i className="tji-arrow-right"></i>
@@ -44,7 +44,7 @@ const HeroInner = ({ title, text, breadcrums = [] }) => {
 			</div>
 			<div
 				className="page-header-overlay"
-				style={{ backgroundImage: `url('/images/shape/pheader-overlay.webp')` }}
+				// style={{ backgroundImage: `url('/images/shape/pheader-overlay.webp')` }}
 			></div>
 		</section>
 	);

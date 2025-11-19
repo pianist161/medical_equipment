@@ -9,18 +9,18 @@ const Cta = () => {
 						<div className="cta-area">
 							<div className="cta-content">
 								<h2 className="title title-anim">
-									Let’s Build Future Together.
+									Готовы начать сотрудничество?
 								</h2>
 								<div className="cta-btn wow fadeInUp" data-wow-delay=".6s">
 									<ButtonPrimary
-										text={"Get Started Now"}
+										text={"Связаться с нами"}
 										url={"/contact"}
 										className={"btn-dark"}
 									/>
 								</div>
 							</div>
 							<div className="cta-img">
-								<img src="/images/cta/cta-bg.webp" alt="" />
+								<img src="/images/cta/cta-bg.jpg" alt="" />
 							</div>
 						</div>
 					</div>
