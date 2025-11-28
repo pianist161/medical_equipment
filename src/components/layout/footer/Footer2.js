@@ -14,7 +14,7 @@ const Footer2 = () => {
 								data-wow-delay=".3s"
 							>
 								<div className="subscribe-logo">
-									<img src="/images/logos/logo-2.webp" alt="" />
+									<img src="/images/logos/logo-shenprom.png" alt="" />
 								</div>
 								<div className="subscribe-form">
 									<form action="#">
@@ -41,7 +41,7 @@ const Footer2 = () => {
 							>
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo-2.webp" alt="Logos" />
+										<img src="/images/logos/logo-shenprom.png" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text">
@@ -130,8 +130,8 @@ const Footer2 = () => {
 									</div>
 									<div className="contact-item">
 										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
+										<Link href="mailto:support@shenprom.com">
+											M: support@shenprom.com
 										</Link>
 									</div>
 									<div className="contact-item">
@@ -160,7 +160,7 @@ const Footer2 = () => {
 											href="https://themeforest.net/user/theme-junction/portfolio"
 											target="_blank"
 										>
-											Bexon
+											Shenprom
 										</Link>{" "}
 										All right reserved
 									</p>

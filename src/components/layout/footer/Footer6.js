@@ -105,8 +105,8 @@ const Footer6 = () => {
 									</div>
 									<div className="contact-item">
 										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
+										<Link href="mailto:support@shenprom.com">
+											M: support@shenprom.com
 										</Link>
 									</div>
 									<div className="contact-item">
@@ -126,7 +126,7 @@ const Footer6 = () => {
 						<div className="col-12">
 							<div className="h6-footer-logo">
 								<Link href="/" className="wow fadeInUpBig" data-wow-delay=".3s">
-									<img src="/images/logos/logo-large.webp" alt="" />
+									<img src="/images/logos/logo-shenprom.png" alt="" />
 								</Link>
 							</div>
 						</div>
@@ -145,7 +145,7 @@ const Footer6 = () => {
 											href="https://themeforest.net/user/theme-junction/portfolio"
 											target="_blank"
 										>
-											Bexon
+											Shenprom
 										</Link>{" "}
 										All right reserved
 									</p>

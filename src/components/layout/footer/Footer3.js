@@ -13,7 +13,7 @@ const Footer3 = () => {
 							>
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo-2.webp" alt="Logos" />
+										<img src="/images/logos/logo-shenprom.png" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text">
@@ -118,8 +118,8 @@ const Footer3 = () => {
 									</div>
 									<div className="contact-item">
 										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
-										<Link href="mailto:support@bexon.com">
-											M: support@bexon.com
+										<Link href="mailto:support@shenprom.com">
+											M: support@shenprom.com
 										</Link>
 									</div>
 									<div className="contact-item">
@@ -191,7 +191,7 @@ const Footer3 = () => {
 											href="https://themeforest.net/user/theme-junction/portfolio"
 											target="_blank"
 										>
-											Bexon
+											Shenprom
 										</Link>{" "}
 										All right reserved
 									</p>

@@ -10,7 +10,7 @@ const Footer = () => {
 							<div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo.webp" alt="Logos" />
+										<img src="/images/logos/logo-shenprom.png" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text">

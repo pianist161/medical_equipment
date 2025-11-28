@@ -62,10 +62,10 @@
 
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Bexon - Corporate Business HTML5 Template
+    Theme Name: Shenprom - Медицинское реабилитационное оборудование
     Author: Theme-Junction
     Author URI: https://themeforest.net/user/theme-junction
-    Description: Bexon - Corporate Business HTML5 Template
+    Description: Shenprom - Производитель медицинского реабилитационного оборудования
     Version: 1.0
 
 -----------------------------------------------------------------------------------
@@ -1145,7 +1145,7 @@ START: Theme Header CSS
   content: "\e913";
   font-size: 21px;
   line-height: 1.2;
-  font-family: "bexon-icons" !important;
+  font-family: "shenprom-icons" !important;
   font-weight: normal;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1320,7 +1320,7 @@ START: Theme Header CSS
 }
 .mainmenu ul > li.menu-item-has-children > a::after, .mainmenu ul > li.has-dropdown > a::after {
   content: "\e929";
-  font-family: "bexon-icons";
+  font-family: "shenprom-icons";
   color: inherit;
   font-size: 12px;
   position: absolute;
@@ -2853,7 +2853,7 @@ START: Theme Footer CSS
   content: "\e911";
   font-size: 10px;
   line-height: 1;
-  font-family: "bexon-icons" !important;
+  font-family: "shenprom-icons" !important;
   color: var(--tj-color-common-white);
   position: absolute;
   width: 100%;
@@ -12004,7 +12004,7 @@ START: Faq CSS
   content: "\e927";
   color: var(--tj-color-theme-primary);
   font-size: 20px;
-  font-family: "bexon-icons" !important;
+  font-family: "shenprom-icons" !important;
   font-weight: normal;
   text-align: center;
   position: absolute;
@@ -12758,7 +12758,7 @@ START: Working process CSS
   font-size: 24px;
   line-height: 1;
   color: var(--tj-color-theme-primary);
-  font-family: "bexon-icons" !important;
+  font-family: "shenprom-icons" !important;
   font-weight: normal;
   position: absolute;
   width: 62px;
@@ -13200,7 +13200,7 @@ START: Contact CSS
 }
 .contact-form .form-input .nice-select::after {
   content: "\e929";
-  font-family: "bexon-icons";
+  font-family: "shenprom-icons";
   color: var(--tj-color-common-black);
   font-size: 16px;
   line-height: 1;
@@ -15392,7 +15392,7 @@ blockquote::before {
   content: "\e92e";
   font-size: 40px;
   color: var(--tj-color-theme-primary);
-  font-family: "bexon-icons";
+  font-family: "shenprom-icons";
   display: inline-block;
   margin-bottom: 20px;
   line-height: 1;
@@ -16350,7 +16350,7 @@ blockquote cite::before {
 }
 .gallery::before {
   content: "\e91c";
-  font-family: "bexon-icons" !important;
+  font-family: "shenprom-icons" !important;
   color: var(--tj-color-common-white);
   font-size: 30px;
   display: -webkit-box;
@@ -17551,7 +17551,7 @@ START: Services CSS
 }
 .service-bottom-text a::after {
   content: "\e916";
-  font-family: "bexon-icons" !important;
+  font-family: "shenprom-icons" !important;
   font-style: normal;
   font-weight: var(--tj-fw-medium);
   font-size: 18px;

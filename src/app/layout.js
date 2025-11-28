@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/thumbs";
 import "./assets/css/animate.min.css";
-import "./assets/css/bexon-icons.css";
+import "./assets/css/shenprom-icons.css";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/font-awesome-pro.min.css";
 import "./assets/css/glightbox.min.css";
@@ -25,8 +25,13 @@ const monaSans = Mona_Sans({
 });
 
 export const metadata = {
-	title: "Bexon - Corporate Business React NextJs Template",
-	description: "Bexon - Corporate Business React NextJs Template",
+	title: "Shenprom - Медицинское реабилитационное оборудование",
+	description: "Shenprom - Производитель медицинского реабилитационного оборудования",
+	icons: {
+		icon: "/images/logos/logo 2.png",
+		shortcut: "/images/logos/logo 2.png",
+		apple: "/images/logos/logo 2.png",
+	},
 };
 
 export default function RootLayout({ children }) {

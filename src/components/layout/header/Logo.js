@@ -7,11 +7,7 @@ const Logo = ({ headerType, isStickyHeader }) => {
 		<div className="site_logo">
 			<Link className="logo" href="/">
 				<Image
-					src={
-						(headerType === 2 || headerType === 5) && !isStickyHeader
-							? "/images/logos/logo-2.webp"
-							: "/images/logos/logo.webp"
-					}
+					src="/images/logos/logo-shenprom.png"
 					alt=""
 					width={544}
 					height={152}
