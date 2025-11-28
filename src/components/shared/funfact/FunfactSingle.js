@@ -12,7 +12,13 @@ const FunfactSingle = ({ currentValue, symbol, isSup, type }) => {
 		threshold: 0.4, // Adjust as needed
 	});
 	useEffect(() => {
-		import("react-odometerjs").then(mod => setOdometer(() => mod.default));
+		// Динамически загружаем CSS и JS для odometer только когда компонент используется
+		const loadOdometer = async () => {
+			await import("@/app/assets/css/odometer-theme-default.css");
+			const mod = await import("react-odometerjs");
+			setOdometer(() => mod.default);
+		};
+		loadOdometer();
 	}, []);
 
 	// Trigger odometer when visible

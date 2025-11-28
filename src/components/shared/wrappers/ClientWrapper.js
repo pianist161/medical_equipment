@@ -19,12 +19,18 @@ import tjMagicCursorAnimation from "@/libs/tjMagicCursorAnimation";
 import tjRightSwipeAnimation from "@/libs/tjRightSwipeAnimation";
 import tjScrollSlider from "@/libs/tjScrollSlider";
 import tjStackAnimation from "@/libs/tjStackAnimation";
+import FontAwesomeLoader from "@/components/shared/loaders/FontAwesomeLoader";
 import { useEffect } from "react";
 const ClientWrapper = () => {
 	useEffect(() => {
-		import("wow.js").then(({ default: WOW }) => {
+		// Динамически загружаем animate.css после первого рендера
+		const loadAnimate = async () => {
+			await import("@/app/assets/css/animate.min.css");
+			// Загружаем wow.js после загрузки CSS
+			const { default: WOW } = await import("wow.js");
 			new WOW().init();
-		});
+		};
+		loadAnimate();
 		smoothScrollToTop();
 		const cleanup = tjMagicCursorAnimation();
 		return () => {
@@ -50,7 +56,7 @@ const ClientWrapper = () => {
 		tjStackAnimation();
 		tjScrollSlider();
 	});
-	return null;
+	return <FontAwesomeLoader />;
 };
 
 export default ClientWrapper;

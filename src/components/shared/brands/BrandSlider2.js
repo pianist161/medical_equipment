@@ -1,11 +1,18 @@
 "use client";
 
+import { useEffect } from "react";
 import getBrands from "@/libs/getBrands";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const BrandSlider2 = ({ type }) => {
 	const brands = getBrands();
+	
+	// Динамически загружаем CSS для Swiper только когда слайдер используется
+	useEffect(() => {
+		import("swiper/css");
+		import("swiper/css/autoplay");
+	}, []);
 	return (
 		<Swiper
 			slidesPerView="auto"

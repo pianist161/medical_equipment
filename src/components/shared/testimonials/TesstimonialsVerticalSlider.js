@@ -10,6 +10,12 @@ const TesstimonialsVerticalSlider = () => {
 	const testimonials = [...testimonialsShowable, ...testimonialsShowable];
 	const [currentDirection, setCurrentDirection] = useState("vertical");
 
+	// Динамически загружаем CSS для Swiper только когда слайдер используется
+	useEffect(() => {
+		import("swiper/css");
+		import("swiper/css/autoplay");
+	}, []);
+
 	useEffect(() => {
 		const getDirection = () => {
 			setCurrentDirection(window.innerWidth < 992 ? "horizontal" : "vertical");

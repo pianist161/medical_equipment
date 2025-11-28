@@ -13,6 +13,12 @@ const ReactNiceSelect = ({
 	const [selectedOption, setSelectedOption] = useState(options[0]);
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [isFocused, setIsFocused] = useState(true);
+	
+	// Динамически загружаем CSS для nice-select только когда компонент используется
+	useEffect(() => {
+		import("@/app/assets/css/nice-select2.css");
+	}, []);
+	
 	useEffect(() => {
 		setSelectedOption(options[selectedIndex]);
 		setCurrentIndex(selectedIndex);

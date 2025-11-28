@@ -1,9 +1,16 @@
 "use client";
+import { useEffect } from "react";
 import getALlServices from "@/libs/getALlServices";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ServiceCard6 from "../cards/ServiceCard6";
 const ServicesSlider2 = () => {
+	// Динамически загружаем CSS для Swiper только когда слайдер используется
+	useEffect(() => {
+		import("swiper/css");
+		import("swiper/css/pagination");
+		import("swiper/css/autoplay");
+	}, []);
 	const showableSevices = getALlServices()?.slice(0, 4);
 	const services = [...showableSevices, ...showableSevices];
 	return (
