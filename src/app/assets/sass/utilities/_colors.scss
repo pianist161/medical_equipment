@@ -1,0 +1,42 @@
+$colors: (
+	common: (
+		white: #ffffff,
+		black: #000000,
+	),
+	heading: (
+		primary: #1e293b,
+	),
+	text: (
+		body: #475569,
+		body-2: #94a3b8,
+		body-3: #64748b,
+		body-4: #0f172a,
+		body-5: #ffffffcc,
+	),
+	theme: (
+		primary: #2563eb,
+		bg: #f1f5f9,
+		bg-2: #e2e8f0,
+		bg-3: #1e293b,
+		dark: #0f172a,
+		dark-2: #1e293b,
+		dark-3: #334155,
+		dark-4: #475569,
+		dark-5: #64748b,
+	),
+	red: (
+		1: #ef4444,
+	),
+	grey: (
+		1: #f8fafc,
+		2: #cbd5e1,
+		3: #ffffff1a,
+	),
+	border: (
+		1: #cbd5e1,
+		2: #334155,
+		3: #ffffff26,
+		4: #ffffff33,
+		5: #2563eb26,
+	),
+);
