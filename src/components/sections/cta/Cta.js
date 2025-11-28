@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 
 const Cta = () => {
@@ -20,7 +21,14 @@ const Cta = () => {
 								</div>
 							</div>
 							<div className="cta-img">
-								<img src="/images/cta/cta-bg.jpg" alt="" />
+								<Image
+									src="/images/cta/cta-bg.webp"
+									alt=""
+									width={388}
+									height={259}
+									sizes="(max-width: 768px) 100vw, 50vw"
+									style={{ width: "100%", height: "100%", objectFit: "cover" }}
+								/>
 							</div>
 						</div>
 					</div>

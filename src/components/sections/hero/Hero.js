@@ -28,8 +28,11 @@ const Hero = () => {
 						<Image
 							src="/images/shape/pattern-bg.webp"
 							alt=""
-							width={500}
-							height={500}
+							width={388}
+							height={330}
+							priority
+							fetchPriority="high"
+							sizes="(max-width: 768px) 100vw, 388px"
 							style={{ width: "100%", height: "auto" }}
 						/>
 					</div>
@@ -38,7 +41,7 @@ const Hero = () => {
 					<div className="banner-img">
 						<Image
 							data-speed="0.8"
-							src="/images/hero/hero-img.jpg"
+							src="/images/hero/hero-img.webp"
 							alt="Медицинское реабилитационное оборудование"
 							width={945}
 							height={793}
@@ -52,7 +55,7 @@ const Hero = () => {
 								<ul>
 									<li className="wow fadeInLeft" data-wow-delay=".5s">
 										<Image
-											src="/images/testimonial/11.jpg"
+											src="/images/testimonial/11.webp"
 											alt=""
 											width={59}
 											height={59}
@@ -67,7 +70,7 @@ const Hero = () => {
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".6s">
 										<Image
-											src="/images/testimonial/12.jpg"
+											src="/images/testimonial/12.webp"
 											alt=""
 											width={59}
 											height={59}
@@ -82,7 +85,7 @@ const Hero = () => {
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".7s">
 										<Image
-											src="/images/testimonial/13.jpg"
+											src="/images/testimonial/13.webp"
 											alt=""
 											width={59}
 											height={59}

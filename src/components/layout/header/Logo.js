@@ -7,11 +7,13 @@ const Logo = ({ headerType, isStickyHeader }) => {
 		<div className="site_logo">
 			<Link className="logo" href="/">
 				<Image
-					src="/images/logos/logo-shenprom.png"
-					alt=""
-					width={544}
-					height={152}
-					style={{ height: "auto" }}
+					src="/images/logos/logo-shenprom.webp"
+					alt="Shenprom Logo"
+					width={136}
+					height={109}
+					priority
+					sizes="(max-width: 768px) 120px, 136px"
+					style={{ height: "auto", width: "auto" }}
 				/>
 			</Link>
 		</div>

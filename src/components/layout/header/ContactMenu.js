@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 
 const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
@@ -23,7 +24,14 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<img src="/images/logos/logo-shenprom.png" alt="Logo" />
+									<Image
+										src="/images/logos/logo-shenprom.webp"
+										alt="Shenprom Logo"
+										width={136}
+										height={109}
+										sizes="120px"
+										style={{ height: "auto", width: "auto" }}
+									/>
 								</Link>
 							</div>
 							<div className="hamburger_close">

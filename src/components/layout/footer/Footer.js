@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -10,7 +11,14 @@ const Footer = () => {
 							<div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo-shenprom.png" alt="Logos" />
+										<Image
+											src="/images/logos/logo-shenprom.webp"
+											alt="Shenprom Logo"
+											width={136}
+											height={109}
+											sizes="(max-width: 768px) 120px, 136px"
+											style={{ height: "auto", width: "auto" }}
+										/>
 									</Link>
 								</div>
 								<div className="footer-text">
@@ -89,10 +97,22 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<Image
+					src="/images/shape/pattern-2.svg"
+					alt=""
+					width={200}
+					height={200}
+					style={{ width: "100%", height: "auto" }}
+				/>
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<Image
+					src="/images/shape/pattern-3.svg"
+					alt=""
+					width={200}
+					height={200}
+					style={{ width: "100%", height: "auto" }}
+				/>
 			</div>
 		</footer>
 	);

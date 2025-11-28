@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import ReactNiceSelect from "@/components/shared/Inputs/ReactNiceSelect";
 import Link from "next/link";
@@ -12,7 +13,13 @@ const Contact2 = () => {
 					<div className="col-lg-6">
 						<div className="global-map wow fadeInUp" data-wow-delay=".3s">
 							<div className="global-map-img">
-								<img src="/images/bg/map.svg" alt="Image" />
+								<Image
+									src="/images/bg/map.svg"
+									alt="Карта"
+									width={600}
+									height={400}
+									style={{ width: "100%", height: "auto" }}
+								/>
 							</div>
 						</div>
 					</div>
@@ -110,10 +117,22 @@ const Contact2 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<Image
+					src="/images/shape/pattern-2.svg"
+					alt=""
+					width={200}
+					height={200}
+					style={{ width: "100%", height: "auto" }}
+				/>
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<Image
+					src="/images/shape/pattern-3.svg"
+					alt=""
+					width={200}
+					height={200}
+					style={{ width: "100%", height: "auto" }}
+				/>
 			</div>
 		</section>
 	);

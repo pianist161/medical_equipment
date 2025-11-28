@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer3 = () => {
@@ -13,7 +14,14 @@ const Footer3 = () => {
 							>
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo-shenprom.png" alt="Logos" />
+										<Image
+											src="/images/logos/logo-shenprom.webp"
+											alt="Shenprom Logo"
+											width={136}
+											height={109}
+											sizes="120px"
+											style={{ height: "auto", width: "auto" }}
+										/>
 									</Link>
 								</div>
 								<div className="footer-text">

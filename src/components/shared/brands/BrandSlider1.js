@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import getBrands from "@/libs/getBrands";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -26,9 +27,13 @@ const BrandSlider1 = ({ className }) => {
 				? brands?.map(({ img }, idx) => (
 						<SwiperSlide key={idx} className="client-item">
 							<div className="client-logo">
-								<img
+								<Image
 									src={img ? img : "/images/brands/brand-1.webp"}
 									alt="Brand"
+									width={150}
+									height={80}
+									sizes="150px"
+									style={{ width: "auto", height: "auto", maxWidth: "100%", objectFit: "contain" }}
 								/>
 							</div>
 						</SwiperSlide>

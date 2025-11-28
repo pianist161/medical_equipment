@@ -1,9 +1,9 @@
 import { Mona_Sans } from "next/font/google";
-// Critical CSS - loaded immediately
+// Critical CSS - loaded immediately (above the fold)
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/shenprom-icons.css";
 import "./globals.css";
-// Non-critical CSS - can be loaded asynchronously
+// Non-critical CSS - loaded after initial render
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -30,9 +30,9 @@ export const metadata = {
 	title: "Shenprom - Медицинское реабилитационное оборудование",
 	description: "Shenprom - Производитель медицинского реабилитационного оборудования",
 	icons: {
-		icon: "/images/logos/logo 2.png",
-		shortcut: "/images/logos/logo 2.png",
-		apple: "/images/logos/logo 2.png",
+		icon: "/images/logos/logo-2.webp",
+		shortcut: "/images/logos/logo-2.webp",
+		apple: "/images/logos/logo-2.webp",
 	},
 	other: {
 		"dns-prefetch": "https://fonts.googleapis.com",

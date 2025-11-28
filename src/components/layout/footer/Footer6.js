@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer6 = () => {
@@ -126,7 +127,14 @@ const Footer6 = () => {
 						<div className="col-12">
 							<div className="h6-footer-logo">
 								<Link href="/" className="wow fadeInUpBig" data-wow-delay=".3s">
-									<img src="/images/logos/logo-shenprom.png" alt="" />
+									<Image
+										src="/images/logos/logo-shenprom.webp"
+										alt="Shenprom Logo"
+										width={136}
+										height={109}
+										sizes="120px"
+										style={{ height: "auto", width: "auto" }}
+									/>
 								</Link>
 							</div>
 						</div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import MarqueeSlider1 from "@/components/shared/marquee/MarqueeSlider1";
 import Link from "next/link";
@@ -14,7 +15,14 @@ const Footer2 = () => {
 								data-wow-delay=".3s"
 							>
 								<div className="subscribe-logo">
-									<img src="/images/logos/logo-shenprom.png" alt="" />
+									<Image
+										src="/images/logos/logo-shenprom.webp"
+										alt="Shenprom Logo"
+										width={136}
+										height={109}
+										sizes="120px"
+										style={{ height: "auto", width: "auto" }}
+									/>
 								</div>
 								<div className="subscribe-form">
 									<form action="#">
@@ -41,7 +49,14 @@ const Footer2 = () => {
 							>
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo-shenprom.png" alt="Logos" />
+										<Image
+											src="/images/logos/logo-shenprom.webp"
+											alt="Shenprom Logo"
+											width={136}
+											height={109}
+											sizes="120px"
+											style={{ height: "auto", width: "auto" }}
+										/>
 									</Link>
 								</div>
 								<div className="footer-text">

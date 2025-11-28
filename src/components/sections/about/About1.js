@@ -16,7 +16,7 @@ const About1 = () => {
 							<div className="about-img overflow-hidden">
 								<Image
 									data-speed="0.8"
-									src="/images/about/about-1.jpg"
+									src="/images/about/about-1.webp"
 									alt="О компании Shenprom"
 									width={653}
 									height={675}
