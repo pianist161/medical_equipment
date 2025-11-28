@@ -5,7 +5,8 @@
 	"scripts": {
 		"dev": "next dev --turbopack",
 		"build": "next build --turbopack",
-		"start": "next start"
+		"start": "next start",
+		"analyze:bootstrap": "node scripts/analyze-bootstrap-usage.js"
 	},
 	"dependencies": {
 		"@gsap/react": "^2.1.2",
@@ -24,5 +25,9 @@
 		"sweetalert2": "^11.22.5",
 		"swiper": "^11.2.10",
 		"wow.js": "^1.2.2"
+	},
+	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^7.0.2",
+		"postcss": "^8.5.6"
 	}
 }

@@ -1,12 +1,15 @@
 import { Mona_Sans } from "next/font/google";
 // Критичные CSS - загружаются синхронно
 import "./assets/css/bexon-icons.css";
-import "./assets/css/bootstrap.min.css";
+// Используем только grid систему Bootstrap вместо полного фреймворка (экономия ~150-200 KB)
+import "bootstrap/dist/css/bootstrap-grid.min.css";
+// Swiper CSS для brands загружаем синхронно, чтобы слайдер работал сразу
+import "swiper/css";
 import "./assets/css/meanmenu.css";
 import "./globals.css";
 
 // Некритичные CSS будут загружаться динамически через компоненты:
-// - swiper/css → в компонентах со слайдерами
+// - swiper/css/autoplay, swiper/css/pagination → в компонентах со слайдерами (дополнительные модули)
 // - animate.min.css → в ClientWrapper после первого рендера
 // - glightbox.min.css → в PopupVideo
 // - font-awesome-pro.min.css → загружается асинхронно
