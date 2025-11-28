@@ -8,10 +8,12 @@ const Logo = ({ headerType, isStickyHeader }) => {
 			<Link className="logo" href="/">
 				<Image
 					src="/images/logos/logo-shenprom.webp"
-					alt=""
+					alt="Shenprom Logo"
 					width={544}
 					height={152}
-					style={{ height: "auto" }}
+					priority
+					style={{ height: "auto", width: "auto" }}
+					unoptimized={false}
 				/>
 			</Link>
 		</div>

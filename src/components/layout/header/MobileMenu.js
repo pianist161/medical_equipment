@@ -23,7 +23,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<img src="/images/logos/logo-2.webp" alt="Logo" />
+									<img src="/images/logos/logo-shenprom.webp" alt="Shenprom Logo" />
 								</Link>
 							</div>
 							<div className="hamburger_close">

@@ -13,7 +13,7 @@ const Footer3 = () => {
 							>
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo-2.webp" alt="Logos" />
+										<img src="/images/logos/logo-shenprom.webp" alt="Shenprom Logo" />
 									</Link>
 								</div>
 								<div className="footer-text">
