@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ServicesSlider1 from "@/components/shared/services/ServicesSlider1";
 
 const Services1 = () => {
@@ -30,10 +31,22 @@ const Services1 = () => {
 				</div>
 			</div>
 			<div className="bg-shape-1">
-				<img src="/images/shape/pattern-2.svg" alt="" />
+				<Image
+					src="/images/shape/pattern-2.svg"
+					alt=""
+					width={200}
+					height={200}
+					style={{ width: "100%", height: "auto" }}
+				/>
 			</div>
 			<div className="bg-shape-2">
-				<img src="/images/shape/pattern-3.svg" alt="" />
+				<Image
+					src="/images/shape/pattern-3.svg"
+					alt=""
+					width={200}
+					height={200}
+					style={{ width: "100%", height: "auto" }}
+				/>
 			</div>
 		</section>
 	);

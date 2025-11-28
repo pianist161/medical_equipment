@@ -4,12 +4,12 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
+
 gsap.registerPlugin(
 	ScrollTrigger,
 	ScrollSmoother,
 	SplitText,
-	ScrollToPlugin,
-	useGSAP
+	ScrollToPlugin
 );
 
 export { gsap, ScrollSmoother, ScrollTrigger, SplitText, useGSAP };

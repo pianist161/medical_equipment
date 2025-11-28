@@ -17,9 +17,10 @@ const About1 = () => {
 								<Image
 									data-speed="0.8"
 									src="/images/about/about-1.jpg"
-									alt=""
+									alt="О компании Shenprom"
 									width={653}
 									height={675}
+									sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 653px"
 								/>
 							</div>
 							<div className="box-area">

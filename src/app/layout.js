@@ -1,4 +1,9 @@
 import { Mona_Sans } from "next/font/google";
+// Critical CSS - loaded immediately
+import "./assets/css/bootstrap.min.css";
+import "./assets/css/shenprom-icons.css";
+import "./globals.css";
+// Non-critical CSS - can be loaded asynchronously
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -7,21 +12,18 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/thumbs";
 import "./assets/css/animate.min.css";
-import "./assets/css/shenprom-icons.css";
-import "./assets/css/bootstrap.min.css";
 import "./assets/css/font-awesome-pro.min.css";
 import "./assets/css/glightbox.min.css";
 import "./assets/css/meanmenu.css";
 import "./assets/css/nice-select2.css";
 import "./assets/css/odometer-theme-default.css";
-import "./globals.css";
 
 const monaSans = Mona_Sans({
 	variable: "--tj-ff-body",
 	subsets: ["latin"],
-	weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
-	style: ["normal", "italic"],
+	weight: ["400", "500", "600", "700"],
 	display: "swap",
+	preload: true,
 });
 
 export const metadata = {
@@ -31,6 +33,9 @@ export const metadata = {
 		icon: "/images/logos/logo 2.png",
 		shortcut: "/images/logos/logo 2.png",
 		apple: "/images/logos/logo 2.png",
+	},
+	other: {
+		"dns-prefetch": "https://fonts.googleapis.com",
 	},
 };
 

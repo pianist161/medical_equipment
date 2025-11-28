@@ -25,7 +25,13 @@ const Hero = () => {
 						</div>
 					</div>
 					<div className="banner-shape">
-						<img src="/images/shape/pattern-bg.webp" alt="" />
+						<Image
+							src="/images/shape/pattern-bg.webp"
+							alt=""
+							width={500}
+							height={500}
+							style={{ width: "100%", height: "auto" }}
+						/>
 					</div>
 				</div>
 				<div className="banner-right-box">
@@ -33,9 +39,11 @@ const Hero = () => {
 						<Image
 							data-speed="0.8"
 							src="/images/hero/hero-img.jpg"
-							alt=""
+							alt="Медицинское реабилитационное оборудование"
 							width={945}
 							height={793}
+							priority
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 945px"
 						/>
 					</div>
 					<div className="box-area">

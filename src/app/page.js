@@ -1,15 +1,30 @@
+import dynamic from "next/dynamic";
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import About1 from "@/components/sections/about/About1";
-import Brands1 from "@/components/sections/brands/Brands1";
-import Contact2 from "@/components/sections/contacts/Contact2";
-import Cta from "@/components/sections/cta/Cta";
-import Features from "@/components/sections/features/Features";
 import Hero from "@/components/sections/hero/Hero";
-import Services1 from "@/components/sections/services/Services1";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+
+// Lazy load components below the fold
+const Features = dynamic(() => import("@/components/sections/features/Features"), {
+	loading: () => <div style={{ minHeight: "200px" }} />,
+});
+const Brands1 = dynamic(() => import("@/components/sections/brands/Brands1"), {
+	loading: () => <div style={{ minHeight: "200px" }} />,
+});
+const About1 = dynamic(() => import("@/components/sections/about/About1"), {
+	loading: () => <div style={{ minHeight: "200px" }} />,
+});
+const Services1 = dynamic(() => import("@/components/sections/services/Services1"), {
+	loading: () => <div style={{ minHeight: "200px" }} />,
+});
+const Contact2 = dynamic(() => import("@/components/sections/contacts/Contact2"), {
+	loading: () => <div style={{ minHeight: "200px" }} />,
+});
+const Cta = dynamic(() => import("@/components/sections/cta/Cta"), {
+	loading: () => <div style={{ minHeight: "200px" }} />,
+});
 
 export default function Home() {
 	return (
